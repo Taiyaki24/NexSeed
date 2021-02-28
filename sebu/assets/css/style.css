@@ -1,0 +1,122 @@
+header{
+    background-color: #212335;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    margin: 20px;
+    height: 30px;
+}
+
+.name{
+    font-size:30px;
+    color: white;
+}
+
+.atama{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shima{
+    height: 100vh;
+}
+
+.profile{
+    background-color:#F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    height: 300px;
+    background-color: #F5F5F5;
+}
+
+table{
+    margin: 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+caption{
+    text-align: center;
+}
+
+.osusume{
+    font-family: inherit;
+    text-align: center;
+}
+
+.shokai{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.spot{
+    height: 250px;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shark{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.market{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.push{
+    color: white;
+    background-color: #212335;
+    height:50px;
+    margin: 30px;
+}
+
+.toiawase{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    color: white;
+    background-color: #212335;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+}
+
+footer{
+    color: white;
+    background-color:#212335;
+    text-align: center;
+}
+
+@media screen and (max-width:680px){
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .shokai{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
